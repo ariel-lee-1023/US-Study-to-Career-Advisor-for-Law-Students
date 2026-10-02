@@ -1,0 +1,18 @@
+[
+  {
+    "severity": "LOW",
+    "rule": "external-link",
+    "why": "links off to a host the distillation did not need",
+    "file": "/Users/AI products/GIthub/US-Study-to-Career-Advisor-for-Law-Students/references/personal-statements.md",
+    "line": 3,
+    "excerpt": "https://www.top-law-schools.com/personal-statement-examples.html"
+  },
+  {
+    "severity": "LOW",
+    "rule": "external-link",
+    "why": "links off to a host the distillation did not need",
+    "file": "/Users/AI products/GIthub/US-Study-to-Career-Advisor-for-Law-Students/references/personal-statements.md",
+    "line": 33,
+    "excerpt": "https://www.top-law-schools.com/personal-statement-examples.html"
+  }
+]

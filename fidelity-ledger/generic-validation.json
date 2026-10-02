@@ -1,0 +1,37 @@
+{
+  "errors": [
+    "no references/reference-*.md files — a library needs at least one book"
+  ],
+  "warnings": [
+    "CHANGELOG.md — unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+    "NOTICE.md — unexpected file at the skill root; the contract is SKILL.md plus a references/ directory",
+    "references/analytic-production.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/calibration.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/career-transition-and-search.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/fit-and-gatekeeping.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/humanizer.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/institutions.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/legal-writing.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/llm-pathway.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/personal-statements.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/recruitment-and-selection.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/roles-and-organizations.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md",
+    "references/toolbox.md — unexpected file; the contract is reference-<slug>.md, and optionally topic-index.md"
+  ],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/us-study-to-career-advisor-for-law-students",
+    "layout": "published-repo",
+    "license": {
+      "spdx_id": "MIT",
+      "standard_text": true,
+      "copyright_notices": [
+        "Copyright (c) 2026 Ariel Lee"
+      ]
+    },
+    "master_body_tokens": 4330,
+    "master_budget": 5050,
+    "master_capabilities": 11,
+    "books": 0
+  }
+}

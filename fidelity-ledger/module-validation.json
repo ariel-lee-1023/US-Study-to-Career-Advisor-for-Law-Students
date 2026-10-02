@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "file_scope": "git index",
+  "checks_passed": 130,
+  "errors": [],
+  "core_body_tokens": 4330,
+  "module_tokens": {
+    "analytic-production.md": 4671,
+    "calibration.md": 2675,
+    "career-transition-and-search.md": 3653,
+    "fit-and-gatekeeping.md": 3289,
+    "humanizer.md": 7863,
+    "institutions.md": 2979,
+    "legal-writing.md": 2968,
+    "llm-pathway.md": 3416,
+    "personal-statements.md": 4322,
+    "recruitment-and-selection.md": 3935,
+    "roles-and-organizations.md": 3437,
+    "toolbox.md": 3019
+  },
+  "runtime_sha256": {
+    "SKILL.md": "4d24b0022a3cd3f47a8695c4cdcda064c8db358e72a7505511fcb77a682ae242",
+    "references/analytic-production.md": "9d3c186fb073ef64bb86bae7ffdcd9d684722f95266ae95abb7e15fc4419590c",
+    "references/calibration.md": "1aacba64e283faf02dbcab10e1372d27c7b0377c5ec236cf91884dd29e8af37d",
+    "references/career-transition-and-search.md": "a5e2d0652d90f7882438ed90f0d581bb7ba73bc3b61ae2e4d1de1c17eb8c9d14",
+    "references/fit-and-gatekeeping.md": "81288c680d04042adca5008f2496d52344172aa40afdb134f40b4b7a74d52ff2",
+    "references/humanizer.md": "8ae03ee63cc4c1ebac7d12e0f0d491460eac497adcd443c0f991063f188d27c3",
+    "references/institutions.md": "4a3fe5001f839627938cabba853c4eaea8822bba3534e7d2414091e6424daa89",
+    "references/legal-writing.md": "64e090b5d6ee3b3c0cfc0ff159d16cad0d7e5e472b0384f4c3d30624b69d2dbb",
+    "references/llm-pathway.md": "f2f71b79592c9d1feb36553064d2ae453444b718fde3051ad30a512714905fcb",
+    "references/personal-statements.md": "f6725e2aaa77fab9f77bdb4ac70c0a34268d98a215d372647c1bf0d06f3be7b2",
+    "references/recruitment-and-selection.md": "2f204f878dbce01d01148fe3648cb46da76d7ea09d4f922261f8acc43e1fe132",
+    "references/roles-and-organizations.md": "43604ca453ad1fc8698f69e4258fe462df8b5283d6311283b9838251f28b9b85",
+    "references/toolbox.md": "589fbe80b3d57067bc9e4c7dee3cab51bd71106b62ced43b334d1a5e8e7deb2f"
+  },
+  "limitations": [
+    "Structural check only; does not establish source completeness or behavioral acceptance.",
+    "Generic per-book reference naming is deliberately inapplicable to this existing module architecture."
+  ]
+}

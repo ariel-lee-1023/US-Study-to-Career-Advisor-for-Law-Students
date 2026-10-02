@@ -1,14 +1,14 @@
-# US Study Advisor for Law Students
+# US Study-to-Career Advisor for Law Students
 
-I help law students and graduates reason through the move to U.S. study, from choosing a degree and funding it to applications, internships, and the path toward qualification. I start by asking what would have to be true for a plan to work, then compare the live alternatives before favoring one. The answer that feels obvious gets examined for the assumptions that made it feel that way.
+I help law students, graduates and internationally educated candidates connect U.S. study decisions to the work they want to do. Before I recommend a degree, an employer or a career move, I ask what would have to be true for that route to work. I compare the alternatives and look for the fact that could reverse the recommendation. A recognizable title or prestigious institution is a starting point for investigation, not a substitute for understanding the work.
 
-If you are comparing an LL.M. and a J.D., I establish the objective, hard constraints, and criteria before ranking programs. I look for the fact that could rule an option out or reverse the recommendation, such as an eligibility condition or an unaffordable funding gap. More school descriptions do not help if they leave that fact unresolved. I distinguish published data, my inference from it, and an unsupported hunch; a deadline, tuition figure, or bar rule needs current confirmation from the authority that owns it.
+If you are considering a move from law into technology policy, I separate the tasks you can already demonstrate from the work you have not tried, the channels that could give you access, and the constraints that may close a route. Admiring a company's mission does not establish that its job suits you. I examine what an employer is trying to predict, how it gathers evidence, and where social signals may influence the judgment. I compare direct entry, bridge roles, practical experiments and further study by what each would actually change.
 
-When I read an application draft, I ask what the reader must understand about you and which parts of your record support it. I make the central claim clear, test whether it survives a skim, and explain which revisions are necessary and which are matters of preference. Your experiences and disclosure choices remain yours. I sharpen the writing without inventing accomplishments or replacing your voice, and keep analytical labels out of prose written in your name.
+When the evidence is incomplete, I build a bounded picture of the system: who decides, what they need, what constrains them, and how the process can change. I distinguish what we know, what I assess, what I am assuming and what remains unknown. I give you a few defensible judgments, the competing explanation, and the evidence worth obtaining next. I preserve your disclosure choices and writing voice, never invent your experience, and verify current rules and employer facts when tools permit. A useful answer supports your decision without pretending uncertainty has disappeared.
 
-I give a recommendation with the alternatives set aside, the reasons, and the observable changes that would warrant revisiting it. This Agent Skill pairs that analytical discipline with seven task-loaded modules on calibration, decision methods, U.S. study pathways, institutions, and writing.
+**Decision → target model → evidence and alternatives → key judgment → next action.**
 
-**Objective → alternatives → discriminating evidence → recommendation → trip-wires.**
+The employment layer supports U.S. employment questions generally, with particular attention to law students, international education and law/technology transitions. The established study, application and writing capabilities remain part of the same advisor.
 
 [Workflow](#how-it-works) · [Use cases](#use-it-for) · [Install](#installation) · [Examples](#example-requests) · [Repository map](#repository-layout) · [Sources](#sources-and-their-responsibilities) · [Validation](#coverage-and-validation)
 
@@ -16,213 +16,118 @@ I give a recommendation with the alternatives set aside, the reasons, and the ob
 
 ```mermaid
 flowchart TD
-    accTitle: Reasoning and delivery workflow
-    accDescr: The task and evidence guide domain reasoning, the output and review.
-    input["Study decision or application draft"]
-    frame["Establish objectives, constraints and live alternatives"]
-    reason["Separate published data, inference and uncertainty"]
-    choice{"Decision or writing task?"}
-    primary["Conditional recommendation and rejected alternatives"]
-    alternative["Fact-preserving revision in the applicant’s voice"]
-    review["Verify volatile facts and state revision triggers"]
-    input --> frame --> reason --> choice
-    choice --> primary
-    choice --> alternative
-    primary --> review
-    alternative --> review
-    review -.->|Revisit when evidence changes| reason
-    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    classDef output fill:#dcfce7,stroke:#15803d,color:#14532d
-    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f
-    class frame,reason focus
-    class primary,alternative output
-    class choice,review decision
+    accTitle: Study-to-career reasoning workflow
+    accDescr: A decision and candidate profile guide a revisable target model, evidence checks, judgments and action.
+    q["Decision, candidate profile and constraints"] --> m["Model work, actors, incentives and requirements"]
+    m --> e["Separate facts, assumptions, judgments and gaps"]
+    e --> a["Test alternative explanations and source quality"]
+    a --> j["Key judgment, uncertainty and implications"]
+    j --> n{"What changes the decision?"}
+    n -->|Evidence gap| c["Targeted verification or work experiment"]
+    n -->|Enough to act| o["Study choice, application, bridge or search action"]
+    c --> m
+    o --> r["Review observable trip-wires"]
+    r -.-> m
 ```
 
-Objective → alternatives → discriminating evidence → recommendation → trip-wires. The diagram summarizes the reasoning route; the question and available evidence determine which branches are useful.
-
-### Why this exists
-
-Most application advice fails in one of three ways. It arrives at an answer first and
-then assembles support for it. It blurs a published fact, a chain of reasoning, and a
-gut read into one confident-sounding sentence. Or it states last decade's rule as this
-year's rule.
-
-This skill is built to make those three failures structurally awkward. The core voice
-carries the habits; seven trigger-loaded modules carry the procedures and the domain
-structure; and a provenance file records where every behaviour came from and how fast
-each piece of domain knowledge decays.
+The method is iterative and scales to the question. A short drafting request need not become an analytic report. Current research and verification require tools supplied by the host; the skill does not automatically browse, send outreach or monitor events between conversations.
 
 ## Use it for
 
-### What it does and does not do
-
-**It does:**
-
-- Lay out the alternatives it considered and name the ones it rejected, with reasons.
-- Tag every substantive claim as data, inference, or hunch — and split claims that mix
-  them.
-- Triage how much analytic machinery a question deserves, and say which category it
-  thinks you are in.
-- Attach a trip-wire to every recommendation: the observable that would mean the
-  recommendation needs revisiting, and in which direction.
-- Read your draft as the tired, self-interested reader on the fortieth file would.
-- Remove recurring AI-writing patterns without changing claims or replacing your voice.
-- Refuse a fabricated percentage, and give a mechanism and a condition instead.
-
-**It does not:**
-
-- Give legal, immigration, financial, or other advice that calls for a licensed
-  professional. It explains how things generally work and marks where you need real
-  counsel.
-- State a current rule. Bar eligibility, visa procedure, work-authorization caps,
-  deadlines, tuition, and test requirements all change; the skill flags them and names
-  the office that owns the real answer.
-- Insert experiences you did not provide, or let a draft imply something untrue.
-- Decide what you disclose about yourself. That is left entirely to you.
+- Compare LL.M./J.D. and employment routes against goals, funding, qualification and work constraints.
+- Identify plausible occupations, adjacent roles and bridges from demonstrated work rather than titles alone.
+- Interpret product, operations, strategy, policy, legal, technical and cross-functional work inside an organization.
+- Explain recruiting stages, assess interview or work-sample evidence, and avoid overinterpreting a rejection.
+- Distinguish person–job, organization, team, values and environment fit from prestige and informal gatekeeping.
+- Design bounded transition experiments and turn a search into ranked employers, conversations and follow-up actions.
+- Investigate a consequential employer or education claim and produce a concise, source-grounded decision brief.
+- Revise truthful personal statements, addenda, recommendations and outreach while preserving the applicant's voice.
 
 ## Installation
 
-**As an agent skill.** Copy the whole directory into the skills location configured
-by your agent host, preserving the `references/` subdirectory. You can omit
-`fidelity-ledger/` from the copy — it is maintainer documentation, not skill content,
-and no host loads it:
+Clone the repository using its new name:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/US-study-Advisor-for-Law-Students.git us-study-advisor-for-law-students
+git clone https://github.com/ariel-lee-1023/US-Study-to-Career-Advisor-for-Law-Students.git
+cd US-Study-to-Career-Advisor-for-Law-Students
 ```
 
-Then move `us-study-advisor-for-law-students/` into that configured skills location.
+The canonical runtime is [SKILL.md](SKILL.md) plus [references/](references/). Project discovery uses `.agents/skills/us-study-to-career-advisor-for-law-students -> ../..`; there is one copy of the runtime. [AGENTS.md](AGENTS.md) makes it the project's default advising skill.
 
-Remove the repository-level files (`README.md`, `LICENSE`, `CHANGELOG.md`,
-`.gitignore`) from the copied folder if you want the skill directory to contain only
-skill content. They are harmless if left in place.
+For a host with a personal skills directory, copy the root `SKILL.md` and `references/` into a directory named `us-study-to-career-advisor-for-law-students`, preserving their relative layout. Retain `LICENSE` and `NOTICE.md` when distributing copies. The maintainer-only `fidelity-ledger/` need not be loaded or installed for advising. Replace an old installation deliberately; renaming this repository does not update independent copies elsewhere.
 
-**As a system prompt or project instruction.** Paste the body of `SKILL.md` (below the
-YAML front matter) as the system prompt, and attach the reference modules as project
-knowledge. Behaviour degrades gracefully — the core is written to work without any
-module loaded.
-
-**Framework compatibility.** `SKILL.md` carries YAML front matter with `name` and
-`description`; the rest is plain Markdown. Nothing here depends on a particular
-runtime.
+Invoke the skill by name or ask a relevant study/career question in the project. Default output is **English**, unless explicitly requested otherwise; this preserves the destination's existing language preference. The Markdown runtime has no execution dependency. Browsing, document handling and external actions depend on the host's tools and permissions.
 
 ## Example requests
 
-> Compare an LL.M. and J.D. for my stated goals, funding constraints and qualification plans. Name the fact most likely to reverse your recommendation.
+> Compare an LL.M., a direct policy-operations application and a bridge role for this foreign-trained law graduate. Identify the requirement that would reverse your recommendation.
 
-> Revise this personal statement without inventing experiences or changing my disclosure choices. Explain the necessary edits.
+> I admire this company's mission. Separate what that says about attraction from what we know about the actual job, team and working conditions.
 
-> Which of these claims require current confirmation from a school, state bar or government office?
+> Interpret this interview process. What is each stage trying to measure, what evidence does it provide, and what remains unknown?
+
+> Turn these employer ideas into a LAMP-based search plan, with truthful outreach drafts and a bounded experiment to test whether I like the work.
+
+> These sources disagree about a program's employment outcomes. Build a small target model, trace source dependencies, and give me three key judgments with assumptions and next verification steps.
+
+> Revise this personal statement without inventing experiences or making disclosure choices for me. Keep the analysis labels outside the essay.
 
 ## Repository layout
 
 ```mermaid
 flowchart LR
-    accTitle: Repository structure and runtime loading
-    accDescr: The canonical core routes to references, while supporting files and maintenance records have separate roles.
-    root["US-STUDY-ADVISOR-FOR-LAW-STUDENTS/"]
-    root --> core["SKILL.md<br/>Reasoning core and loading triggers"]
-    core -->|Loads relevant depth| refs["references/<br/>Runtime reference library"]
-    root --> support0["fidelity-ledger/<br/>Provenance and evaluation"]
-    root --> support1["LICENSE<br/>License"]
-    root --> alias0[".agents/skills/us-study-advisor-for-law-students"]
-    alias0 -.->|Discovery alias| root
-    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    classDef support fill:#f1f5f9,stroke:#64748b,color:#334155
-    class core,refs runtime
-    class support0,support1 support
+    accTitle: Canonical files and loading
+    accDescr: One core loads relevant modules; discovery points to the root and maintainer records stay separate.
+    root["Repository root"] --> core["SKILL.md"]
+    root --> alias[".agents/skills/<br/>us-study-to-career-advisor-for-law-students"]
+    alias -.->|Relative symlink| root
+    core -->|Task triggers| refs["references/<br/>12 integrated modules"]
+    root --> guidance["AGENTS.md"]
+    root --> ledger["fidelity-ledger/<br/>Provenance, coverage and validation"]
+    root --> notices["LICENSE and NOTICE.md"]
 ```
 
-[Expert core](SKILL.md) · [Reference library](references/) · [Provenance and evaluation](fidelity-ledger/) · [License](LICENSE).
+[Core](SKILL.md) · [Project guidance](AGENTS.md) · [Modules](references/) · [Maintainer records](fidelity-ledger/) · [Changelog](CHANGELOG.md).
 
-The map reflects the repository’s existing architecture. Runtime references and human-facing maintenance or learning records have different loading roles.
-
-```
-us-study-advisor-for-law-students/
-├── README.md
-├── SKILL.md                      # the core advising voice — loaded always
-├── references/                   # trigger-loaded modules — host-agent-facing
-│   ├── calibration.md            # probability, base rates, updating
-│   ├── toolbox.md                # structured analytic techniques
-│   ├── llm-pathway.md            # LL.M./J.D., bar eligibility, visas
-│   ├── legal-writing.md          # U.S. legal-writing convention
-│   ├── personal-statements.md    # topic selection, structure, addenda, recommendation letters
-│   ├── humanizer.md              # fact-preserving cleanup of AI-writing patterns
-│   └── institutions.md           # how U.S. universities are funded and governed
-├── fidelity-ledger/              # human-maintainer-facing — never trigger-loaded
-│   └── provenance.md             # sources, fidelity notes, staleness ledger, extension protocol
-├── CHANGELOG.md
-├── LICENSE
-├── NOTICE.md                     # originality and source-attribution statement
-└── .gitignore
-```
-
-`references/` and `fidelity-ledger/` sit side by side, on purpose, and are not
-interchangeable. `references/` is written for a host agent to load automatically
-when a trigger fires — every file in it is a module that can end up quoted or
-paraphrased in the advising voice. `fidelity-ledger/` is written for the human
-maintaining this repository — sourcing, fidelity notes, the staleness ledger, and
-the extension protocol. No host ever loads it as part of normal operation, and
-nothing in it is meant to reach the advising voice. If a file would answer "where
-did this come from, and how do I extend it" rather than "what should the advisor
-know or do," it belongs in `fidelity-ledger/`, not `references/`.
-
-### Architecture: core voice, trigger-loaded modules
-
-`SKILL.md` is the reasoning temperament and stands alone. The modules are **not**
-preloaded — each one loads when its trigger fires, and each carries procedure and
-structure only. A module that starts speaking in the first person has broken the
-architecture, and `fidelity-ledger/provenance.md` says so explicitly.
-
-| Trigger | Module |
+| Trigger | Runtime module |
 |---|---|
-| Stating or revising a probability or confidence | `references/calibration.md` |
-| A decision consequential enough to earn extra structure — irreversible, high-cost, contested, or where the leading answer arrived suspiciously early | `references/toolbox.md` |
-| LL.M./J.D. pathway mechanics, bar eligibility, visa logic, programme selection | `references/llm-pathway.md` |
-| U.S. legal-writing convention, or the rhetorical transition for writers trained in another legal culture | `references/legal-writing.md` |
-| Drafting or structuring a personal statement, optional essay, addendum, or wait-list letter; selecting or briefing recommenders | `references/personal-statements.md` |
-| Drafting, rewriting, or line-editing prose that should sound like the applicant; reviewing AI-writing patterns; a request to humanize text | `references/humanizer.md` |
-| How U.S. universities and law schools are structured, funded, or governed | `references/institutions.md` |
+| Probability, confidence, base rates and updating | [Calibration](references/calibration.md) |
+| Consequential decisions needing structured challenge | [Toolbox](references/toolbox.md) |
+| Question framing, target modeling, evidence gaps and analytic delivery | [Analytic production](references/analytic-production.md) |
+| LL.M./J.D., bar, student-status and program-pathway mechanics | [LL.M. pathway](references/llm-pathway.md) |
+| U.S. legal-writing conventions | [Legal writing](references/legal-writing.md) |
+| Personal statements, addenda and recommender strategy | [Personal statements](references/personal-statements.md) |
+| Fact-preserving prose cleanup | [Humanizer](references/humanizer.md) |
+| University funding, incentives and governance | [Institutions](references/institutions.md) |
+| Role/market hypotheses, actual work and organizational context | [Roles and organizations](references/roles-and-organizations.md) |
+| Recruitment, assessment and prediction | [Recruitment and selection](references/recruitment-and-selection.md) |
+| Fit dimensions, social signals and gatekeeping | [Fit and gatekeeping](references/fit-and-gatekeeping.md) |
+| Career experiments and search execution | [Career transition and search](references/career-transition-and-search.md) |
 
-For any domain not covered, the advisor reasons from the core and says plainly that
-the question is outside its material. Auditing, editing, or extending the skill is not
-a trigger a host ever fires — that work is done by a human maintainer reading
-`fidelity-ledger/provenance.md` directly.
+The core owns the advising voice. Modules contain procedures and source-bounded knowledge, loaded only when needed. Maintainer records never serve as runtime knowledge. This fold-in deliberately follows the existing module architecture rather than creating one separate reference per new book.
 
 ## Sources and their responsibilities
 
 ```mermaid
 flowchart LR
-    accTitle: Sources and their primary responsibilities
-    accDescr: Task responsibilities connect the expert to its source material; groupings do not imply author agreement.
-    core["Expert core and task router"]
-    core --> g0["Analytical judgment"]
-    g0 --> s0_0["Heuer · Psychology of Intelligence Analysis"]
-    g0 --> s0_1["Heuer &amp; Pherson · Structured Analytic Techniques"]
-    g0 --> s0_2["Tetlock &amp; Gardner · Superforecasting"]
-    classDef group0 fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
-    class g0,s0_0,s0_1,s0_2 group0
-    core --> g1["Pathways and institutions"]
-    g1 --> s1_0["Edwards · LL.M. Roadmap"]
-    g1 --> s1_1["Thelin · American Higher Education"]
-    classDef group1 fill:#dcfce7,stroke:#15803d,color:#14532d
-    class g1,s1_0,s1_1 group1
-    core --> g2["Writing and application craft"]
-    g2 --> s2_0["Ramsfield · Culture to Culture"]
-    g2 --> s2_1["Bodine · Great Personal Statements for Law School"]
-    g2 --> s2_2["Princeton Review · Law School Essays That Made a Difference"]
-    g2 --> s2_3["Stewart · Perfect Personal Statements"]
-    g2 --> s2_4["Zhang &amp; Mohapatra, eds. · Successful Personal Statements"]
-    g2 --> s2_5["Top Law Schools · Guide to Personal Statements"]
-    g2 --> s2_6["Chen · Humanizer"]
-    classDef group2 fill:#fef3c7,stroke:#b45309,color:#78350f
-    class g2,s2_0,s2_1,s2_2,s2_3,s2_4,s2_5,s2_6 group2
-    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
-    class core focus
+    accTitle: Sources by decision responsibility
+    accDescr: The advisor combines distinct source responsibilities without implying agreement among authors.
+    a["Advisor core"] --> reasoning["Reasoning and judgment"]
+    reasoning --> old["Heuer / Heuer-Pherson / Tetlock-Gardner"]
+    a --> production["Investigate and communicate"]
+    production --> clark["Clark: target model"]
+    production --> george["George-Bruce: analytic failure"]
+    production --> hendrix["Hendrix-Major: analytic product"]
+    a --> study["Education and writing"]
+    study --> education["Edwards / Thelin / Ramsfield"]
+    study --> writing["Bodine / Princeton Review / Stewart<br/>Zhang-Mohapatra / TLS / Humanizer"]
+    a --> hiring["Work and hiring"]
+    hiring --> formal["Yu-Cable / Schmitt / Tarki"]
+    hiring --> social["Ostroff-Judge / Rivera"]
+    hiring --> org["Hughes Johnson"]
+    a --> transition["Transition and search"]
+    transition --> candidate["Ibarra / Dalton"]
 ```
-
-Connections show primary contributions, not a required reading order or agreement among authors. Full source details and qualifications follow; source-specific depth is available in the reference library.
 
 | Author / provider | Full source title | Edition or supplied context | Responsibility |
 |---|---|---|---|
@@ -238,104 +143,36 @@ Connections show primary contributions, not a required reading order or agreemen
 | Warren Zhang & Hemant Mohapatra, eds. | Successful Personal Statements to Get You into a Top University | Edition not specified; undergraduate compilation | Structural patterns only |
 | Top Law Schools | Guide to Personal Statements | Web source, current-as-fetched | Application-writing guidance |
 | Siqi Chen | Humanizer | 2.11.2, 2025 | Fact-preserving prose cleanup |
+| Kang Yang Trevor Yu & Daniel M. Cable, eds. | The Oxford Handbook of Recruitment | Supplied copyright 2014 | Recruitment process, applicant choice, channels and reactions |
+| Neal Schmitt, ed. | The Oxford Handbook of Personnel Assessment and Selection | 2012 | Job analysis, predictive inference, instruments, criteria and fairness |
+| Cheri Ostroff & Timothy A. Judge, eds. | Perspectives on Organizational Fit | 2007 | Fit referents, similarity/complementarity and measurement limits |
+| Lauren A. Rivera | Pedigree: How Elite Students Get Elite Jobs | 2015; principal interviews 2006–2008 | Informal gatekeeping in bounded elite professional-services hiring |
+| Herminia Ibarra | Working Identity: Unconventional Strategies for Reinventing Your Career | 2003 | Possible selves, experiments, connections and sense-making |
+| Steve Dalton | The 2-Hour Job Search: Using Technology to Get the Right Job Faster | Revised supplied text, copyright 2012/2020 | LAMP, 6-Point Email, 3B7, TIARA and search execution |
+| Claire Hughes Johnson | Scaling People: Tactics for Management and Company Building | Supplied first edition, copyright 2022 | Organizational context, team charter, operating system and hiring practice |
+| Atta Tarki | Evidence-Based Recruiting: How to Build a Company of Star Performers Through Systematic and Repeatable Hiring Practices | 2020 | Operational evidence, structured interviewing and independent estimates |
+| Robert M. Clark | Intelligence Analysis: A Target-Centric Approach | 5th ed., copyright 2017; source catalog dated 2016 | Issue definition, target models, evidence, gaps and scenarios |
+| Roger Z. George & James B. Bruce, eds. | Analyzing Intelligence: Origins, Obstacles, and Innovations | 2008 | Institutional failure, analytic independence and collection–analysis relationships |
+| M. Patrick Hendrix & James S. Major | Communicating with Intelligence: Writing and Briefing for National Security | 3rd ed., 2023 | Key judgments, uncertainty, audience relevance, editing and briefing |
 
+The corpus now contains **23 source entries**, including books, edited volumes, a web guide and the Humanizer adaptation. Eleven books were added in this upgrade. Their responsibilities are synthesized into five new modules, not eleven isolated summaries.
 
-
-### Source corpus
-
-Three sources supply the reasoning temperament; the admissions and education sources
-supply domain structure; Humanizer supplies a sentence-level editing checklist. The
-division is deliberate — the voice is not a subject-matter expert wearing an analyst's
-manner, it is an analyst reasoning over domain structure it treats as provisional.
-
-**Reasoning temperament**
-
-- Richards J. Heuer Jr., *Psychology of Intelligence Analysis* (1999)
-- Richards J. Heuer Jr. & Randolph H. Pherson, *Structured Analytic Techniques for
-  Intelligence Analysis* (2nd ed., 2011)
-- Philip E. Tetlock & Dan Gardner, *Superforecasting: The Art and Science of
-  Prediction* (2015)
-
-**Domain structure**
-
-- George E. Edwards, *LL.M. Roadmap: An International Student's Guide to U.S. Law
-  School Programs* (Aspen, 2011)
-- Jill J. Ramsfield, *Culture to Culture: A Guide to U.S. Legal Writing* (Carolina
-  Academic Press, 2005)
-- John R. Thelin, *American Higher Education: Issues and Institutions* (Routledge,
-  Core Concepts in Higher Education)
-- Paul Bodine, *Great Personal Statements for Law School* (McGraw-Hill, 2006)
-- The Princeton Review, *Law School Essays That Made a Difference* (6th ed., 2014)
-- Mark Alan Stewart, *Perfect Personal Statements: Law, Business, Medicine, Graduate
-  School* (Peterson's, 2nd ed., 2002)
-- Warren Zhang & Hemant Mohapatra (eds.), *Successful Personal Statements to Get You
-  into a Top University* — UK/international undergraduate-admissions compilation, used
-  for structural patterns only; see `references/personal-statements.md` §6 for what
-  transfers and what does not
-- [Top Law Schools, "Guide to Personal
-  Statements"](https://www.top-law-schools.com/personal-statement-examples.html) — web
-  source, treated as current-as-fetched rather than a fixed-date book
-
-**Editing**
-
-- Siqi Chen, [*Humanizer*](https://github.com/blader/humanizer), version 2.11.2
-  (2025) — an MIT-licensed editing checklist based on Wikipedia's "Signs of AI
-  writing," adapted in `references/humanizer.md`
-
-Except for the MIT-licensed Humanizer adaptation, nothing is quoted at length from a
-source; the domain modules are synthesised. Author terminology is preserved exactly
-where the term *is* the framework — ACH, Key Assumptions Check, ELP, RCM, revenue
-theory, disease theory, cost/price/net price, perpetual beta, Fermi-izing, TELL model,
-uniqueness filter — because paraphrasing a named framework destroys the ability to
-find it in the original. A behaviour-by-behaviour source map is in
-`fidelity-ledger/provenance.md` §2.
+Source disagreements remain visible. Formal selection validity differs from socially influential signals; Rivera's evidence is bounded to elite professional services. Ibarra allows goals to evolve through experiments, while Dalton supplies execution around provisional targets. Tarki's objections to interviewer vetoes differ from Hughes Johnson's described practice. Clark's provisional models must remain revisable; putting judgments first in a finished answer does not justify deciding them before analysis. Intelligence communication's policy-prescription boundary is deliberately adapted to an advisor authorized to recommend actions.
 
 ## Coverage and validation
 
-Source attribution, behavior grounding, fidelity notes and staleness are recorded in [the provenance ledger](fidelity-ledger/provenance.md). This README layout update does not supply a new behavioral evaluation.
+Read [provenance](fidelity-ledger/provenance.md), [source coverage](fidelity-ledger/coverage-audit.md), [validation](fidelity-ledger/validation.md) and the [acceptance suite](fidelity-ledger/acceptance-suite.json). Source reading was targeted to the requested decisions and boundaries, not a complete reread of all books. PDF pages were used to resolve recruitment-handbook Markdown column noise. Source hashes and actual read spans are recorded; raw books are excluded from publication.
 
-### Extending it
+Structural/editorial checks and behavioral acceptance are separate. **No fresh-context baseline/core/full behavioral comparison was run**; the suite is a frozen plan, not evidence of performance gains. The generic Books-to-Skill-Refs validator assumes per-book `reference-*.md` files, which this established architecture intentionally does not use. Its actual report and a destination-specific module validator are retained; the latter checks the published layout, links, discovery, module headers, routing, separation and size limits. Validation status and any limitations are recorded without relabeling an incompatible generic check as a pass.
 
-The extension protocol is in `fidelity-ledger/provenance.md` §6. In short: distil structure
-and decision rules rather than summary, preserve the author's exact framework names,
-keep the file trigger-loaded and headed with **Sources / Trigger / What this file is**,
-add a vintage warning and a staleness row, end with decision rules, and register the
-source and the new behaviours in `fidelity-ledger/provenance.md` §§1–2.
-
-The one hard constraint: **the voice lives in the core and must not be duplicated into
-modules.**
-
-Issues and pull requests are welcome. A pull request that adds a module should include
-its `fidelity-ledger/provenance.md` entries; one that changes core behaviour should say which grounding
-in §2 it is revising, or make the case that the behaviour belongs in the list of
-commitments held for independent ethical reasons rather than analytic ones.
+To extend the project, follow [the existing extension protocol](fidelity-ledger/provenance.md#6-extension-protocol). Add source-grounded procedures, triggers, vintage handling and coverage records; keep the voice in the core and maintainer documentation outside `references/`.
 
 ## Limits
 
-### The vintage caution
+The books supply durable mechanisms, not current openings, salaries, employer policies, hiring loops, visa rules or platform features. Verify volatile facts with the relevant employer, school, state bar or government authority. No degree, network tactic, assessment or career experiment guarantees employment.
 
-The modules are distilled from books with fixed publication dates. What they carry
-reliably is **structure** — the sequence of decisions, the shape of a system, the
-mechanism behind an institution's behaviour. What they do not carry reliably is
-**current fact**.
-
-The full decay-ordered ledger is in `fidelity-ledger/provenance.md` §4. The headline:
-
-| Content | Decay | Handling |
-|---|---|---|
-| Bar eligibility rules for foreign-educated lawyers | Fastest | Never state from the module; route to the specific state bar every time |
-| Visa procedures, work-authorization durations and caps | Very fast | Route to the campus international office and current government guidance |
-| Deadlines, tuition, fees, aid programmes, test requirements | Yearly | Flag as volatile; verify against the school |
-| Named schools' statement-weighting, named admissions officers | Yearly to several years | Verify against current published guidance |
-| Institutional mechanism, rhetorical framework, personal-statement genre conventions, cognitive biases | Very slow to stable | Usable directly |
-
-**Combining these modules never produces a current rule.**
+The advisor does not replace licensed legal, immigration or financial counsel. It does not infer an employer's confidential rubric, an individual's motives, or a candidate's numerical hiring probability without evidence. Occupational examples and intelligence methods applied to career systems are labeled synthesis or analogy. Broad U.S. employment reasoning does not establish exhaustive coverage of every occupation or expand the admissions corpus beyond its supported scope.
 
 ## License
 
-MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
-
-This license covers the original text in this repository. The adapted Humanizer
-module retains its original MIT copyright and license notice in `NOTICE.md`. The
-license does not extend to referenced source books, which remain the property of
-their respective copyright holders.
+MIT © 2026 Ariel Lee. See [LICENSE](LICENSE). This license covers original repository text, not the referenced books. The Humanizer adaptation retains its MIT attribution and permission notice in [NOTICE.md](NOTICE.md). No source books or extracted corpora are distributed here.

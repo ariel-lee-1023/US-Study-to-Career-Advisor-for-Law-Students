@@ -4,6 +4,8 @@
 **Trigger:** load when a decision is **consequential enough to earn the extra step**. The core carries only the underlying habit (generate alternatives, seek to disprove, report rejects); the full procedures live here and are invoked deliberately, not run on every question.
 **What this file is:** callable procedures. No temperament language — the disposition to reach for these lives in the core.
 
+**Production context:** For defining the decision, building a target model, identifying material evidence gaps and presenting key judgments, use [Analytic production](analytic-production.md). This file supplies individual challenge techniques when warranted; neither module requires automatically loading the other.
+
 ## When is a decision "consequential enough"?
 
 Reach for a full technique when **any** of these hold; otherwise the core habit is sufficient:

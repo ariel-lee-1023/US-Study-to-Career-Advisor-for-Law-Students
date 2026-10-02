@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-02",
+  "source_language": "English",
+  "language_basis": "All new sources are English; existing destination explicitly defaults to English.",
+  "sources": [
+    {
+      "id": "The-Oxford",
+      "filename": "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc.md",
+      "author": "Yu & Cable, eds.",
+      "title": "The Oxford Handbook of Recruitment",
+      "edition": "copyright 2014",
+      "bytes": 4800132,
+      "sha256": "f91709fe7f29880e26dfadc15a2b42158479dfdd8a6400a2ec35e182ce6ab8ea",
+      "module": [
+        "recruitment-and-selection.md"
+      ],
+      "structure": "28 chapters",
+      "retained_items": [
+        "Recruitment objectives and process",
+        "recruiter effects",
+        "applicant reactions",
+        "job choice stages",
+        "source credibility",
+        "word of mouth",
+        "realistic job previews"
+      ],
+      "locators": "PDF pp. 41, 55, 67, 381\u2013383, 389, 443\u2013444 (file pages); MD 22427\u201322475",
+      "excluded": "Specialized volunteer/older-worker recruiting, country comparisons, full source-effect meta-analyses, historical statistics and Internet Recruiting 2.0 tools excluded from this targeted layer."
+    },
+    {
+      "id": "Oxford",
+      "filename": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds.md",
+      "author": "Neal Schmitt, ed.",
+      "title": "The Oxford Handbook of Personnel Assessment and Selection",
+      "edition": "2012",
+      "bytes": 4794276,
+      "sha256": "72ef89c36f9bd26ed621339da9a6a1e57f54aa6812581fcea0b93a55a0c427fe",
+      "module": [
+        "recruitment-and-selection.md",
+        "roles-and-organizations.md"
+      ],
+      "structure": "edited handbook; selective chapters",
+      "retained_items": [
+        "Predictive inference",
+        "validity evidence",
+        "KSAOs",
+        "Critical Incident Technique",
+        "criteria",
+        "reliability and incremental evidence",
+        "ability/personality",
+        "interviews",
+        "simulations",
+        "predictive bias"
+      ],
+      "locators": "MD 1916\u20131965, 2387\u20132405, 2498\u20132510, 2641\u20132650, 5950\u20135964, 6057\u20136084, 7118\u20137138, 8629\u20138642",
+      "excluded": "Physical-capability testing, detailed mathematical derivations, test administration programs and jurisdiction-specific legal standards not distilled. Historical coefficients/rankings intentionally excluded."
+    },
+    {
+      "id": "Perspectives",
+      "filename": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc.md",
+      "author": "Cheri Ostroff & Timothy A. Judge, eds.",
+      "title": "Perspectives on Organizational Fit",
+      "edition": "2007",
+      "bytes": 1397936,
+      "sha256": "7dec15f13f5af31ab8c2202006479e5ed28904a803496e1b742edbbdc53a886e",
+      "module": [
+        "fit-and-gatekeeping.md"
+      ],
+      "structure": "13 chapters (including commentary; ch. 11 contains subchapters)",
+      "retained_items": [
+        "P\u2013E/P\u2013J/P\u2013O/team/interpersonal fit",
+        "supplementary/complementary",
+        "demands\u2013abilities/needs\u2013supplies",
+        "direct/indirect/independent measures",
+        "ASA",
+        "dynamics",
+        "methodological cautions"
+      ],
+      "locators": "MD 1021\u20131035, 1676\u20131682, 1800\u20131812, 1853\u20131874, 2713\u20132735",
+      "excluded": "Regulatory fit, full leader-follower theory, HR-system fit, organizational ecology and fit-statistics implementation excluded; polynomial response surfaces retained as a measurement caution, not an executable technique."
+    },
+    {
+      "id": "Pedigree",
+      "filename": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera.md",
+      "author": "Lauren A. Rivera",
+      "title": "Pedigree: How Elite Students Get Elite Jobs",
+      "edition": "2015; interviews 2006\u20132008",
+      "bytes": 861482,
+      "sha256": "74f1677ebd339587ac84a9ceb039bd8b3c97959cf0aae3f2ff8cd33b21cb3af5",
+      "module": [
+        "fit-and-gatekeeping.md"
+      ],
+      "structure": "11 chapters plus appendices",
+      "retained_items": [
+        "Institutional sponsorship",
+        "pedigree",
+        "extracurricular and presentation signals",
+        "cultural matching",
+        "looking glass merit",
+        "narrative evaluation",
+        "deliberation",
+        "compensatory credentialing"
+      ],
+      "locators": "MD 234\u2013242, 280\u2013286, 1000\u20131012, 1040\u20131046, 1213\u20131219, 1695\u20131700, 2777\u20132786",
+      "excluded": "Case detail and prevalence claims not reproduced; described mimicry/cultural assimilation routes bounded rather than prescribed. No extension to all employers or specific individual causal diagnosis."
+    },
+    {
+      "id": "Working",
+      "filename": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-.md",
+      "author": "Herminia Ibarra",
+      "title": "Working Identity: Unconventional Strategies for Reinventing Your Career",
+      "edition": "2003",
+      "bytes": 407399,
+      "sha256": "6a18cf62b35422394b34d66aa57b7574dfa9fe4d3a1df7faccf3d4c9a5e00ced",
+      "module": [
+        "career-transition-and-search.md"
+      ],
+      "structure": "8 chapters",
+      "retained_items": [
+        "Possible selves",
+        "provisional selves",
+        "plan-and-implement/test-and-learn",
+        "crafting experiments",
+        "shifting connections",
+        "making sense",
+        "lingering between identities",
+        "small wins"
+      ],
+      "locators": "MD 204\u2013224, 545\u2013554, 1251\u20131268, 1490\u20131512, 2040\u20132080, 2167\u20132177, 2190\u20132200",
+      "excluded": "Extended biographies and universal success claims excluded; student/international constraints are advisor adaptation. Does not require quitting before learning."
+    },
+    {
+      "id": "The-2",
+      "filename": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton.md",
+      "author": "Steve Dalton",
+      "title": "The 2-Hour Job Search: Using Technology to Get the Right Job Faster",
+      "edition": "revised supplied text, copyright 2012/2020",
+      "bytes": 440079,
+      "sha256": "0d986cb362cb52a19a9cfe405768e0cbf4cbf9ba5183ca2110f7924bd218ce16",
+      "module": [
+        "career-transition-and-search.md"
+      ],
+      "structure": "10 chapters in 3 parts",
+      "retained_items": [
+        "LAMP",
+        "sorting and order verification",
+        "Naturalize",
+        "Boosters/Obligates/Curmudgeons",
+        "6-Point Email",
+        "3B7",
+        "TIARA",
+        "follow-up",
+        "application timing exception"
+      ],
+      "locators": "MD 788\u2013805, 1112\u20131126, 1212\u20131216, 1388\u20131407, 1420\u20131450, 1478\u20131490, 1954\u20131978, 2170\u20132180",
+      "excluded": "Platform instructions, email-finder recommendations, response-rate promises and deterministic labels dropped. Respectful bounded follow-up and current application instructions explicitly adapt the book."
+    },
+    {
+      "id": "Scaling",
+      "filename": "Scaling-People-Claire-Hughes-Johnson.md",
+      "author": "Claire Hughes Johnson",
+      "title": "Scaling People: Tactics for Management and Company Building",
+      "edition": "supplied first edition, copyright 2022",
+      "bytes": 929344,
+      "sha256": "7ff7d0847ffbe5d6e55d6b248bea8793ecf0b6b77b9e10f8d008b129bb03423f",
+      "module": [
+        "roles-and-organizations.md",
+        "recruitment-and-selection.md"
+      ],
+      "structure": "5 main chapters",
+      "retained_items": [
+        "Foundations and Planning",
+        "Comprehensive Hiring Approach",
+        "Intentional Team Development",
+        "Feedback and Performance",
+        "Team Charter",
+        "operating system/cadence",
+        "structures and interfaces",
+        "hypothesis-based coaching",
+        "hiring rubrics and decision rights"
+      ],
+      "locators": "PDF file pp. 72\u201373, 122, 239\u2013240; MD 1220\u20131246, 1746\u20131762, 1926\u20131933, 2792\u20132808, 4079\u20134090",
+      "excluded": "Management exercises, compensation design, firing and company-building operations excluded except where they illuminate candidate environment. Technology-function table is advisor synthesis, not a source taxonomy."
+    },
+    {
+      "id": "Evidence",
+      "filename": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst.md",
+      "author": "Atta Tarki",
+      "title": "Evidence-Based Recruiting: How to Build a Company of Star Performers Through Systematic and Repeatable Hiring Practices",
+      "edition": "2020",
+      "bytes": 497512,
+      "sha256": "9ef3f767e9e146716b69653c5d5bb576e6fe2e7ca0b322ccbbffa9e229b82993",
+      "module": [
+        "recruitment-and-selection.md"
+      ],
+      "structure": "12 chapters",
+      "retained_items": [
+        "Success prediction",
+        "structured evidence and anchored ratings",
+        "Calibrated Independent Estimates",
+        "evidence quality",
+        "process vs outcome",
+        "interviewer independence",
+        "veto-power disagreement"
+      ],
+      "locators": "MD 1199\u20131210, 1365\u20131375, 2654\u20132668, 2883\u20132893, 3189\u20133200",
+      "excluded": "ROI calculations, power-law claims, historical GMA supremacy/rankings, named-company policy claims and performance percentages excluded. Recommendations remain practitioner evidence."
+    },
+    {
+      "id": "Intelligence-",
+      "filename": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark.md",
+      "author": "Robert M. Clark",
+      "title": "Intelligence Analysis: A Target-Centric Approach",
+      "edition": "5th ed., copyright 2017; source catalog dated 2016",
+      "bytes": 1131611,
+      "sha256": "708f6deeb3be3e4bd05a255325938bafa678f34b9109c0e46ba0fb4babee8ef4",
+      "module": [
+        "analytic-production.md"
+      ],
+      "structure": "selective chapters from 5th edition",
+      "retained_items": [
+        "Issue definition/decomposition",
+        "target-centric network process",
+        "structure/function/process",
+        "bounded model",
+        "alternative vs competitive models",
+        "source/channel/evidence",
+        "convergent/divergent/contradictory/redundant evidence",
+        "gaps",
+        "scenarios",
+        "feedback"
+      ],
+      "locators": "MD 1066\u20131086, 1131\u20131155, 1305\u20131345, 1844\u20131858, 2170\u20132208, 2349\u20132374, 2439\u20132452, 2491\u20132505, 2661\u20132693, 5038\u20135057, 5264\u20135290, 7177\u20137195",
+      "excluded": "Military/geospatial targeting, PMESII as a fixed checklist, network-surveillance practice, formal Bayesian/Wigmore/simulation implementations excluded. Channel-entropy analogy not treated as a scientific law of human communication."
+    },
+    {
+      "id": "Analyzing",
+      "filename": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-.md",
+      "author": "Roger Z. George & James B. Bruce, eds.",
+      "title": "Analyzing Intelligence: Origins, Obstacles, and Innovations",
+      "edition": "2008",
+      "bytes": 1082892,
+      "sha256": "cdf32bf45ffae58c235407f737b4115d7a80fb43e860f69ddaacd0a89898398a",
+      "module": [
+        "analytic-production.md"
+      ],
+      "structure": "18 chapters plus introduction/conclusion",
+      "retained_items": [
+        "Relevance/politicization",
+        "direct pressure, house line, cherry-picking, question framing, shared mindset",
+        "cognitive/organizational failures",
+        "Epistemology Checklist",
+        "denial/deception",
+        "analyst\u2013collector relationship"
+      ],
+      "locators": "MD 1589\u20131608, 2077\u20132095, 2771\u20132795, 2860\u20132882, 3195\u20133229, 3431\u20133442",
+      "excluded": "Agency histories and reform programs, military/homeland operations, repeated ACH exposition and historical success/failure rates excluded. Institutional mechanisms apply analogically, not as current employer claims."
+    },
+    {
+      "id": "Communicating",
+      "filename": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat.md",
+      "author": "M. Patrick Hendrix & James S. Major",
+      "title": "Communicating with Intelligence: Writing and Briefing for National Security",
+      "edition": "3rd ed., 2023",
+      "bytes": 606048,
+      "sha256": "7d0d16d6807eba1860d302450e0d3a57ad68b3cac255627fd9e1f44b2abca664",
+      "module": [
+        "analytic-production.md"
+      ],
+      "structure": "12 chapters",
+      "retained_items": [
+        "Audience and topic/issue",
+        "BLUF",
+        "Judge/Interpret/Support",
+        "evidence then key judgments",
+        "likelihood vs confidence",
+        "Three R Method",
+        "Four Sweeps",
+        "ABC briefing",
+        "editing uncertainty"
+      ],
+      "locators": "MD 361\u2013391, 516\u2013551, 1018\u20131026, 1219\u20131240, 2285\u20132315, 2774\u20132794, 3265\u20133287, 3500\u20133526, 4051\u20134065",
+      "excluded": "Classified handling/citation systems, official briefing formats, historical assessments and probability conversion tables excluded. Agency nonprescription is adapted to conditional career recommendations."
+    }
+  ]
+}

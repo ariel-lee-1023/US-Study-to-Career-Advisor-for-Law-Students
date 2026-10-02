@@ -1,0 +1,7 @@
+{
+  "status": "unrun",
+  "reason": "No selected external evaluation endpoint/model configured; no fresh-context three-condition execution performed.",
+  "suite": "acceptance-suite.json",
+  "tasks": 17,
+  "claims_of_behavioral_improvement": false
+}

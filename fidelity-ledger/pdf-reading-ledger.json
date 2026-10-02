@@ -1,0 +1,109 @@
+{
+  "reads": [
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 381,
+      "chars": 3215,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 382,
+      "chars": 5400,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 443,
+      "chars": 3273,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 444,
+      "chars": 5149,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 55,
+      "chars": 3333,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 67,
+      "chars": 3221,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 383,
+      "chars": 4275,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 389,
+      "chars": 5291,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "Scaling People (Claire Hughes Johnson).pdf",
+      "pdf_page": 72,
+      "chars": 2182,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "8d4af3d391ecaf3b7e62abed9719b2fa9c5414d48e9d6cb438735661af5e2325"
+    },
+    {
+      "source": "Scaling People (Claire Hughes Johnson).pdf",
+      "pdf_page": 73,
+      "chars": 2281,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "8d4af3d391ecaf3b7e62abed9719b2fa9c5414d48e9d6cb438735661af5e2325"
+    },
+    {
+      "source": "Scaling People (Claire Hughes Johnson).pdf",
+      "pdf_page": 122,
+      "chars": 326,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "8d4af3d391ecaf3b7e62abed9719b2fa9c5414d48e9d6cb438735661af5e2325"
+    },
+    {
+      "source": "Scaling People (Claire Hughes Johnson).pdf",
+      "pdf_page": 239,
+      "chars": 2155,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "8d4af3d391ecaf3b7e62abed9719b2fa9c5414d48e9d6cb438735661af5e2325"
+    },
+    {
+      "source": "Scaling People (Claire Hughes Johnson).pdf",
+      "pdf_page": 240,
+      "chars": 2274,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "8d4af3d391ecaf3b7e62abed9719b2fa9c5414d48e9d6cb438735661af5e2325"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 8,
+      "chars": 1883,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    },
+    {
+      "source": "The Oxford handbook of recruitment (Yu, Kang Yang Trevor Cable etc.).pdf",
+      "pdf_page": 41,
+      "chars": 3254,
+      "reason": "Resolve Markdown OCR/column ambiguity or audit independent source span",
+      "sha256": "653f44843000c204efaae5ff277887d3e1c4798063a931408fca3dd7f3e52290"
+    }
+  ]
+}

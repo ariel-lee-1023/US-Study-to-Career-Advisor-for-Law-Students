@@ -1,0 +1,90 @@
+{
+  "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton": {
+    "unique_lines": 408,
+    "repeated_lines": 3,
+    "input_tokens": 16732,
+    "unresolved": [],
+    "coverage_fraction": 0.14416961130742048,
+    "budget_alert": false
+  },
+  "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-": {
+    "unique_lines": 135,
+    "repeated_lines": 0,
+    "input_tokens": 5241,
+    "unresolved": [],
+    "coverage_fraction": 0.04546985517009094,
+    "budget_alert": false
+  },
+  "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc": {
+    "unique_lines": 160,
+    "repeated_lines": 0,
+    "input_tokens": 1900,
+    "unresolved": [],
+    "coverage_fraction": 0.003388322991889202,
+    "budget_alert": false
+  },
+  "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds": {
+    "unique_lines": 170,
+    "repeated_lines": 0,
+    "input_tokens": 11738,
+    "unresolved": [],
+    "coverage_fraction": 0.007582177422951697,
+    "budget_alert": false
+  },
+  "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc": {
+    "unique_lines": 80,
+    "repeated_lines": 0,
+    "input_tokens": 7008,
+    "unresolved": [],
+    "coverage_fraction": 0.011431837667905115,
+    "budget_alert": false
+  },
+  "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera": {
+    "unique_lines": 59,
+    "repeated_lines": 0,
+    "input_tokens": 2741,
+    "unresolved": [],
+    "coverage_fraction": 0.013679573382796198,
+    "budget_alert": false
+  },
+  "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst": {
+    "unique_lines": 61,
+    "repeated_lines": 0,
+    "input_tokens": 3008,
+    "unresolved": [],
+    "coverage_fraction": 0.015939378102952706,
+    "budget_alert": false
+  },
+  "Scaling-People-Claire-Hughes-Johnson": {
+    "unique_lines": 81,
+    "repeated_lines": 0,
+    "input_tokens": 5546,
+    "unresolved": [],
+    "coverage_fraction": 0.015280135823429542,
+    "budget_alert": false
+  },
+  "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark": {
+    "unique_lines": 323,
+    "repeated_lines": 0,
+    "input_tokens": 13402,
+    "unresolved": [],
+    "coverage_fraction": 0.03996535511012126,
+    "budget_alert": false
+  },
+  "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-": {
+    "unique_lines": 161,
+    "repeated_lines": 3,
+    "input_tokens": 7351,
+    "unresolved": [],
+    "coverage_fraction": 0.028490532649088657,
+    "budget_alert": false
+  },
+  "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat": {
+    "unique_lines": 250,
+    "repeated_lines": 0,
+    "input_tokens": 5531,
+    "unresolved": [],
+    "coverage_fraction": 0.045712196013896506,
+    "budget_alert": false
+  }
+}

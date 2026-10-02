@@ -16,6 +16,21 @@ Because this is a skill rather than a library, the version numbers are read as:
 
 ---
 
+## [2026-10-02] — Study-to-career and analytic production upgrade
+
+### Added
+
+- Four integrated employment modules covering actual work and market hypotheses, recruitment/selection, fit/gatekeeping, and transition/search, grounded in eight supplied books.
+- One analytic-production module integrating Clark's target models, George/Bruce's institutional failure analysis, and Hendrix/Major's decision-focused communication.
+- Source/reading/coverage records, development and final scenario groups, and module-aware structural validation. Behavioral comparison remains unrun.
+
+### Changed
+
+- Renamed the project, skill slug and discovery alias to US Study-to-Career Advisor for Law Students. Local checkout and GitHub repository names follow `US-Study-to-Career-Advisor-for-Law-Students`.
+- Extended the core from study and admissions through general U.S. employment questions, with particular attention to law students and internationally educated candidates. Preserved existing study, drafting, identity/disclosure and source-currency commitments.
+- Added production links to toolbox and calibration, retained one canonical runtime, and refreshed the README introduction and source map.
+- Explicitly distinguished research conclusions, practitioner recommendations, bounded elite-hiring findings and advisor synthesis. Current facts remain live-verification items.
+
 ## [Unreleased]
 
 ### Added
@@ -106,5 +121,5 @@ First public release.
   extension protocol.
 - `README.md`, `LICENSE`, `.gitignore`, and this changelog.
 
-[Unreleased]: https://github.com/ariel-lee-1023/us-study-advisor-for-law-students/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/ariel-lee-1023/us-study-advisor-for-law-students/releases/tag/v1.0.0
+[Unreleased]: https://github.com/ariel-lee-1023/US-Study-to-Career-Advisor-for-Law-Students/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ariel-lee-1023/US-Study-to-Career-Advisor-for-Law-Students/releases/tag/v1.0.0

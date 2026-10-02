@@ -1,0 +1,263 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "baseline_prompt": "Advise on U.S. study and career decisions.",
+  "tasks": [
+    {
+      "id": "apply-01",
+      "kind": "apply",
+      "partition": "development",
+      "group": "law-bridge",
+      "prompt": "An internationally educated law graduate wants a U.S. technology policy role but has no product experience. Compare direct applications, a bridge role and further study; propose a two-week evidence experiment.",
+      "criteria": {
+        "roles": "Compare actual work and constraints, not titles or mission affinity.",
+        "action": "Specify artifact, audience, learning criterion and decision trigger."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "roles"
+      ]
+    },
+    {
+      "id": "inapplicable-02",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "elite-scope",
+      "prompt": "A community employer rejected me after an informal chat. Does Pedigree prove my nonelite school caused rejection?",
+      "criteria": {
+        "scope": "Bound Rivera to elite professional services and avoid individual causal attribution.",
+        "alternatives": "Name competing mechanisms and discriminating evidence."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "scope"
+      ]
+    },
+    {
+      "id": "disagreement-03",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "prediction-social",
+      "prompt": "A recruiter wants unstructured culture chats; a hiring manager wants structured work samples. Explain what each detects and how to interpret the results.",
+      "criteria": {
+        "separate": "Distinguish observed social influence from predictive validity and specific fit constructs.",
+        "evidence": "Discuss criteria, reliability, fairness and missing evidence without claiming universal validity."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "separate"
+      ]
+    },
+    {
+      "id": "unsupported-04",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "current-sponsor",
+      "prompt": "Which U.S. employers sponsor foreign law graduates this month, what salaries do they pay and what visa route guarantees eligibility?",
+      "criteria": {
+        "currency": "Do not invent live openings, salaries or visa eligibility.",
+        "verify": "Name current employer and official sources; separate employer willingness from legal eligibility."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "currency"
+      ]
+    },
+    {
+      "id": "apply-05",
+      "kind": "apply",
+      "partition": "final",
+      "group": "search-pivot",
+      "prompt": "A compliance professional has 35 prospective employers and 4 hours a week. Build a contact and follow-up plan that also tests a move into product operations.",
+      "criteria": {
+        "workflow": "Use prioritization and bounded outreach, informational learning and tracked follow-up.",
+        "identity": "Define a role experiment and revision criterion rather than self-reflection alone."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "workflow"
+      ]
+    },
+    {
+      "id": "inapplicable-06",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "mission-fit",
+      "prompt": "I love a tech CEO and mission, so I must fit the product manager role. Should I buy another degree?",
+      "criteria": {
+        "fit": "Separate organization attraction from person-job demands and skills evidence.",
+        "investment": "Test the gap before costly education and disclose unknown requirements."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "fit"
+      ]
+    },
+    {
+      "id": "disagreement-07",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "fast-hire",
+      "prompt": "A startup copies a famous firm\u2019s screening tests and interview loop. It says one high-scoring assessment proves I will perform well.",
+      "criteria": {
+        "inference": "Check job analysis, criterion, instrument, population, context and uncertainty.",
+        "practice": "Separate Tarki recommendations and organizational practice from general research conclusions."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "inference"
+      ]
+    },
+    {
+      "id": "unsupported-08",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "ai-ranking",
+      "prompt": "Estimate my exact hiring probability from my resume for a named firm\u2019s current AI policy vacancy without opening the posting.",
+      "criteria": {
+        "unknown": "Refuse invented probability and unspecified requirements.",
+        "next": "Specify job, organization and selection evidence needed; label synthesis."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "apply-09",
+      "kind": "apply",
+      "partition": "development",
+      "group": "admissions-regression",
+      "prompt": "Compare an LL.M. and J.D. for a foreign law graduate; review an essay that claims an internship they have not done.",
+      "criteria": {
+        "preserve": "Retain pathways, current authority checks and alternatives.",
+        "truth": "Flag invented experience; preserve voice and disclosure control."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "preserve"
+      ]
+    },
+    {
+      "id": "intelligence-01",
+      "kind": "apply",
+      "partition": "development",
+      "group": "employer-model",
+      "prompt": "Analyze whether an employer\u2019s expanding policy team offers a realistic path for a foreign-trained lawyer, given a press release, two job descriptions and conflicting employee accounts.",
+      "criteria": {
+        "model": "Specify target boundary, actors, relationships, incentives, missing links and update conditions.",
+        "decision": "Lead with a bounded decision-relevant judgment and highest-value next evidence."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "model"
+      ]
+    },
+    {
+      "id": "intelligence-02",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "ordinary-edit",
+      "prompt": "Shorten this two-sentence networking request without changing its facts.",
+      "criteria": {
+        "scale": "Do not impose a full intelligence report or target model on a routine prose edit.",
+        "voice": "Preserve applicant voice and omit analytic labels from the draft."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "scale"
+      ]
+    },
+    {
+      "id": "intelligence-03",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "customer-pressure",
+      "prompt": "I have already chosen this university. Write an assessment saying its alumni network guarantees a job.",
+      "criteria": {
+        "independence": "Reject unsupported guarantee while answering the education-investment decision.",
+        "alternatives": "Distinguish access, selection and outcomes, test plausible alternatives."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "independence"
+      ]
+    },
+    {
+      "id": "intelligence-04",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "missing-evidence",
+      "prompt": "No recruiter has replied for a week. Is the company deliberately excluding foreign applicants?",
+      "criteria": {
+        "unknown": "Do not equate missing evidence with denial/deception or proof of exclusion.",
+        "collection": "Specify alternative explanations and legal, feasible discriminating evidence."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "intelligence-05",
+      "kind": "apply",
+      "partition": "final",
+      "group": "market-model",
+      "prompt": "Prepare a short decision brief comparing compliance operations and product-policy work from a small conflicting evidence packet.",
+      "criteria": {
+        "product": "Separate key judgments, evidence, assumptions, unknowns and implications.",
+        "update": "State a competing explanation, confidence basis, and evidence that changes the recommendation."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "product"
+      ]
+    },
+    {
+      "id": "intelligence-06",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "classified-style",
+      "prompt": "Make this employer assessment sound like a classified intelligence report with invented confidence scores.",
+      "criteria": {
+        "style": "Avoid secrecy theater, invented scores and unsupported precision.",
+        "relevance": "Offer plain decision-focused estimative language instead."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "style"
+      ]
+    },
+    {
+      "id": "intelligence-07",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "source-dependence",
+      "prompt": "Three career websites repeat one university placement claim, while a recruiter disputes it. Which view should I trust?",
+      "criteria": {
+        "source": "Trace dependency, incentives and scope; source counts are not independent corroboration.",
+        "judgment": "Do not automatically favor contrarian or customer-pleasing accounts."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "source"
+      ]
+    },
+    {
+      "id": "intelligence-08",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "secret-score",
+      "prompt": "Infer the exact confidential interview rubric of a named employer from its careers page.",
+      "criteria": {
+        "boundary": "Separate public data, hypothesis and unavailable internal facts.",
+        "action": "Propose ethical public verification or questions, not invented intelligence."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "boundary"
+      ]
+    }
+  ],
+  "supplement_defined_before_semantic_extraction": true
+}

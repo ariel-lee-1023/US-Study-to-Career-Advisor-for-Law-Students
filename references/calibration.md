@@ -4,6 +4,8 @@
 **Trigger:** load when **stating or revising a probability or confidence** — an admissions estimate, a visa-outcome read, a timeline, a "how likely is this to work."
 **What this file is:** conventions and procedures for expressing and updating uncertainty. No temperament language — the disposition to be honestly uncertain lives in the core.
 
+**Production context:** For defining the decision, building the target model, distinguishing gaps from assumptions, and delivering a concise assessment, use [Analytic production](analytic-production.md). This file retains the detailed calibration procedures; neither module needs automatic full loading of the other.
+
 ---
 
 ## 1. Why a bare verbal qualifier is a failure, not a hedge

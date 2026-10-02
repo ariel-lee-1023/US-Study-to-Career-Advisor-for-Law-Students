@@ -22,6 +22,17 @@
 | 10 | Zhang & Mohapatra (eds.), *Successful Personal Statements to Get You into a Top University* | `personal-statements.md` (structural patterns only — see module §6) | UK/international undergraduate-admissions compilation, exact year unverified |
 | 11 | Top Law Schools, "Guide to Personal Statements" (top-law-schools.com) | `personal-statements.md` | Web page, undated — treat as current-as-fetched only |
 | 12 | Siqi Chen, *Humanizer*, version 2.11.2 (MIT License), based on Wikipedia's "Signs of AI writing" | `humanizer.md` | 2025; versioned editing checklist |
+| 13 | Yu & Cable, eds., *The Oxford Handbook of Recruitment* | `recruitment-and-selection.md` | copyright 2014 |
+| 14 | Neal Schmitt, ed., *The Oxford Handbook of Personnel Assessment and Selection* | `recruitment-and-selection.md; roles-and-organizations.md` | 2012 |
+| 15 | Cheri Ostroff & Timothy A. Judge, eds., *Perspectives on Organizational Fit* | `fit-and-gatekeeping.md` | 2007 |
+| 16 | Lauren A. Rivera, *Pedigree: How Elite Students Get Elite Jobs* | `fit-and-gatekeeping.md` | 2015; interviews 2006–2008 |
+| 17 | Herminia Ibarra, *Working Identity: Unconventional Strategies for Reinventing Your Career* | `career-transition-and-search.md` | 2003 |
+| 18 | Steve Dalton, *The 2-Hour Job Search: Using Technology to Get the Right Job Faster* | `career-transition-and-search.md` | revised supplied text, copyright 2012/2020 |
+| 19 | Claire Hughes Johnson, *Scaling People: Tactics for Management and Company Building* | `roles-and-organizations.md; recruitment-and-selection.md` | supplied first edition, copyright 2022 |
+| 20 | Atta Tarki, *Evidence-Based Recruiting: How to Build a Company of Star Performers Through Systematic and Repeatable Hiring Practices* | `recruitment-and-selection.md` | 2020 |
+| 21 | Robert M. Clark, *Intelligence Analysis: A Target-Centric Approach* | `analytic-production.md` | 5th ed., copyright 2017; source catalog dated 2016 |
+| 22 | Roger Z. George & James B. Bruce, eds., *Analyzing Intelligence: Origins, Obstacles, and Innovations* | `analytic-production.md` | 2008 |
+| 23 | M. Patrick Hendrix & James S. Major, *Communicating with Intelligence: Writing and Briefing for National Security* | `analytic-production.md` | 3rd ed., 2023 |
 
 Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4–11 supply **domain structure**. Source 12 supplies a **sentence-level editing checklist**, not facts or advising voice. This division is deliberate and load-bearing: the voice is not a subject-matter expert wearing an analyst's manner, it is an analyst reasoning over domain structure it treats as provisional.
 
@@ -51,6 +62,16 @@ Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4
 | Concede facts freely, premises rarely | Tetlock, commandment 4 (update on evidence, not on pressure) |
 | Mechanism-and-condition instead of false precision | Tetlock, commandment 6 (granularity permitted by the problem, no more) |
 | The lens goes on before the evidence arrives | Heuer's central thesis across the perception, memory, and mind-set chapters |
+| Model the decision target through structure, function, process and feedback | Clark, chs. 3–7 and 13; career application is analogy |
+| Separate known information, assumptions, judgments and material gaps | Clark, evidence/gap analysis; Hendrix/Major, analytic delivery; synthesis preserves core data/inference/hunch |
+| Investigate institutional distortion without assuming deceptive intent | George/Bruce, chs. 6, 8, 10–12; ordinary employer/university explanations remain alternatives |
+| Lead with defensible key judgments and distinguish likelihood from confidence | Hendrix/Major, chs. 1, 3, 7–10; source audience/production principles adapted to advising |
+| Analyze roles before titles or additional credentials | Schmitt ch. 7; Hughes Johnson chs. 2–5; role-family market procedure is synthesis |
+| Distinguish recruitment, selection, fit, gatekeeping, transition and tactics | Cross-book synthesis: Yu/Cable; Schmitt; Ostroff/Judge; Rivera; Ibarra; Dalton |
+| Ask which construct, instrument and outcome support a hiring inference | Schmitt ch. 6 and assessment chapters; Tarki operating practices separately bounded |
+| Treat fit as dimensional, relational and revisable | Ostroff/Judge; distinguish perception, measurement, referent and outcome |
+| Examine social signals without endorsing class-coded exclusion | Rivera; bounded to elite professional-services recruitment |
+| Test career direction through practice while organizing search actions | Ibarra's test-and-learn; Dalton's LAMP, 6-Point Email, 3B7 and TIARA |
 
 **Behaviours not derived from the corpus**, held for independent reasons: use of the user's name and pronouns exactly; refusal to substitute for licensed professional advice; refusal to insert experiences the user did not provide; leaving disclosure decisions entirely to the user; delivering hard reads kindly. These are ethical commitments, not analytic method, and should not be revised on analytic grounds.
 
@@ -86,6 +107,11 @@ The reasoning modules age slowly; the domain modules age fast. Ordered by decay 
 | Analytical patterns, rhetorical framework, design elements, ELP | Very slow — describes a legal culture. | Usable directly. |
 | Institutional mechanism: cost/price, RCM, revenue and disease theories, governance | Very slow. | Usable directly. |
 | Cognitive biases, ACH, calibration discipline | Effectively stable. | Usable directly. |
+| Current openings, headcount, salaries, recruiter contacts, interview loops and sponsorship policies | Fast; sometimes days. | Verify with current employer sources; date and scope claims. Historical book examples are not current policies. |
+| Platform features and contact-finding tools | Fast. | Preserve Dalton’s workflow; verify tools and permitted use independently. |
+| Numerical validity estimates, assessment rankings, employment-law standards | Research and legal updates can materially change conclusions. | Retrieve current primary research or official authority; do not reproduce historical coefficients as current rankings. |
+| Fit vocabulary, job analysis, organizational mechanisms and career experimentation | Relatively durable, with boundary conditions. | Use as frameworks, not an individualized success guarantee. |
+| Target models and analytic-production methods | Durable methods; each populated model can age rapidly. | Date evidence; update actors, links, constraints and assumptions as facts change. |
 
 **Standing rule:** when a module supplies a specific rather than a structure, the advisor says which it is, marks the specific as needing verification, and names the office or authority that owns the current answer.
 
@@ -95,8 +121,8 @@ Not covered by the corpus, and to be reasoned from the core rather than confabul
 
 - Any jurisdiction outside the U.S., including comparison of U.S. programmes with programmes elsewhere. `personal-statements.md` §6 draws only structural patterns from its one non-U.S. source and explicitly excludes that source's mechanics for this reason.
 - Non-law graduate admissions, beyond what Thelin's institutional analysis supports generically and what Stewart's cross-field comparison in `personal-statements.md` §1–2 supports for statement craft specifically.
-- Employment markets, hiring practices, and salary data.
-- Immigration paths beyond student status.
+- Current market size/demand, openings, salaries, employer-specific policies and hiring loops. Durable recruitment, selection, fit, gatekeeping, organizational work and career/search mechanisms are now covered; occupational examples do not establish current opportunity or exhaustive labor-market coverage.
+- Current immigration eligibility and rules beyond the student-pathway structure. Employment analysis flags the constraint; it does not create legal expertise or establish authorization.
 - Tax, financial planning, and loan product specifics.
 - Anything about a named individual school. The corpus supports *how to evaluate* a school; it supports no claim *about* one. This extends to `personal-statements.md`: named schools and officers in its sources are illustrative of a pattern, not a current claim about that school's process.
 
@@ -107,3 +133,16 @@ A gap should produce an explicit statement that the question is outside the mate
 To add a domain module: distil structure and decision rules, not summary; preserve the author's exact framework names; place the new file in `references/` (never in `fidelity-ledger/`) so the host can trigger-load it; head it with **Sources / Trigger / What this file is**; add a vintage warning and a staleness row; end with decision rules; and add the source to §1 and the behaviour rows to §2 of this file. **The voice lives in the core and must not be duplicated into modules** — a module that starts speaking in the first person has broken the architecture.
 
 **Directory test before adding any file to this repository.** Ask: would a host agent ever load this automatically because a trigger fired? If yes, it is a module and belongs in `references/`, with a Sources/Trigger/What-this-file-is header. If no — it exists so a human maintainer can audit, extend, or verify the skill — it belongs in `fidelity-ledger/`, alongside this file. Never let a maintainer-facing file (sourcing, fidelity notes, staleness ledgers, extension protocols, changelog-style records) sit inside `references/`, and never let a trigger-loaded module sit in `fidelity-ledger/`. The two directories exist specifically so a host agent's automatic loading can never accidentally pull in documentation that was written for a human and was never meant to reach the advising voice.
+
+
+## 7. 2026-10-02 fold-in and renamed project
+
+The user authorized expansion to a study-to-career advisor and chose `US-Study-to-Career-Advisor-for-Law-Students` for the local and remote repository. A supplemental request added the analytic-production layer before publication. Eleven new books were integrated into five task modules; the destination's core/module architecture governs, not a per-book output layout. The existing seven modules remain, with production-context links added to toolbox/calibration.
+
+The original analytic voice remains central. Repeated explanations were compressed to accommodate employment and production judgments under the core size ceiling. Existing study and writing scope, disclosure control, truthfulness and the English default remain. The original source entries and historical provenance were preserved rather than silently reverified in this fold-in.
+
+**Fidelity boundaries.** Occupational/function examples, candidate evidence matrices, experiment cards and the integrated workflow are labeled advisor synthesis. General employment analysis does not expand the admissions source coverage. Rivera is not a universal employer model. Practitioner processes are separated from validity research. The Tarki/Hughes Johnson veto disagreement is explicit. Ibarra's evolving goals and Dalton's execution assumptions are connected without erasing their difference. Clark's provisional models remain revisable; Hendrix/Major's conclusion-first delivery does not authorize conclusion-first investigation. George/Bruce's selected failure cases do not supply a base rate for employer deception. The agency restriction on policy prescription is deliberately adapted to conditional career recommendations.
+
+**Reading and coverage.** See `source-manifest.json`, `coverage-audit.md`, `reading-ledger.json`, and `pdf-reading-ledger.json`. This was targeted mechanism extraction, not full-book coverage. Some early tool outputs were truncated; emitted-span/token accounting is explicitly an upper bound and is not a claim that every emitted word was inspected. Key noisy recruitment passages were reread from the original PDF. Bibliographic years are reported from supplied title/copyright pages, with conflicting catalog dates retained rather than guessed.
+
+**Validation.** See `validation.md`. The generic validator is retained for audit but its per-book naming check is inapplicable to this existing architecture. The destination-specific validator checks the actual published contract. Frozen acceptance cases are unrun: no selected external evaluation endpoint/model was configured, and editorial reasoning is not a fresh-context behavioral experiment. No performance-gain claim is made.

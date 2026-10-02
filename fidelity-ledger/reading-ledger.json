@@ -1,0 +1,922 @@
+{
+  "accounting": "Controlled emitted spans only; token estimates are upper bounds where tool output was truncated. Initial metadata/heading probes are not fully instrumented. Not a full-reading claim.",
+  "sources": {
+    "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton": {
+      "lines": 2830,
+      "output_budget": 5000,
+      "sha256": "0d986cb362cb52a19a9cfe405768e0cbf4cbf9ba5183ca2110f7924bd218ce16"
+    },
+    "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-": {
+      "lines": 2969,
+      "output_budget": 5000,
+      "sha256": "6a18cf62b35422394b34d66aa57b7574dfa9fe4d3a1df7faccf3d4c9a5e00ced"
+    },
+    "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc": {
+      "lines": 47221,
+      "output_budget": 5000,
+      "sha256": "f91709fe7f29880e26dfadc15a2b42158479dfdd8a6400a2ec35e182ce6ab8ea"
+    },
+    "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds": {
+      "lines": 22421,
+      "output_budget": 5000,
+      "sha256": "72ef89c36f9bd26ed621339da9a6a1e57f54aa6812581fcea0b93a55a0c427fe"
+    },
+    "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc": {
+      "lines": 6998,
+      "output_budget": 5000,
+      "sha256": "7dec15f13f5af31ab8c2202006479e5ed28904a803496e1b742edbbdc53a886e"
+    },
+    "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera": {
+      "lines": 4313,
+      "output_budget": 5000,
+      "sha256": "74f1677ebd339587ac84a9ceb039bd8b3c97959cf0aae3f2ff8cd33b21cb3af5"
+    },
+    "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst": {
+      "lines": 3827,
+      "output_budget": 5000,
+      "sha256": "9ef3f767e9e146716b69653c5d5bb576e6fe2e7ca0b322ccbbffa9e229b82993"
+    },
+    "Scaling-People-Claire-Hughes-Johnson": {
+      "lines": 5301,
+      "output_budget": 5000,
+      "sha256": "7ff7d0847ffbe5d6e55d6b248bea8793ecf0b6b77b9e10f8d008b129bb03423f"
+    },
+    "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark": {
+      "lines": 8082,
+      "output_budget": 5000,
+      "sha256": "708f6deeb3be3e4bd05a255325938bafa678f34b9109c0e46ba0fb4babee8ef4"
+    },
+    "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-": {
+      "lines": 5651,
+      "output_budget": 5000,
+      "sha256": "cdf32bf45ffae58c235407f737b4115d7a80fb43e860f69ddaacd0a89898398a"
+    },
+    "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat": {
+      "lines": 5469,
+      "output_budget": 5000,
+      "sha256": "7d0d16d6807eba1860d302450e0d3a57ad68b3cac255627fd9e1f44b2abca664"
+    }
+  },
+  "reads": [
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1030,
+      "end": 1085,
+      "tokens": 2622,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1230,
+      "end": 1320,
+      "tokens": 4470,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1510,
+      "end": 1540,
+      "tokens": 1112,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1810,
+      "end": 1880,
+      "tokens": 2770,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1112,
+      "end": 1126,
+      "tokens": 126,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 742,
+      "end": 748,
+      "tokens": 117,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1420,
+      "end": 1450,
+      "tokens": 844,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1940,
+      "end": 1955,
+      "tokens": 275,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1388,
+      "end": 1407,
+      "tokens": 1202,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1478,
+      "end": 1490,
+      "tokens": 295,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1954,
+      "end": 1970,
+      "tokens": 8,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 2170,
+      "end": 2180,
+      "tokens": 597,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 204,
+      "end": 224,
+      "tokens": 868,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 1251,
+      "end": 1268,
+      "tokens": 851,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 1490,
+      "end": 1512,
+      "tokens": 997,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 2040,
+      "end": 2080,
+      "tokens": 1257,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc",
+      "start": 564,
+      "end": 648,
+      "tokens": 781,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 1916,
+      "end": 1965,
+      "tokens": 3356,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 2387,
+      "end": 2405,
+      "tokens": 844,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 2498,
+      "end": 2510,
+      "tokens": 712,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 5950,
+      "end": 5964,
+      "tokens": 974,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 6057,
+      "end": 6084,
+      "tokens": 3285,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 7118,
+      "end": 7138,
+      "tokens": 979,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 8629,
+      "end": 8642,
+      "tokens": 264,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Oxford-Handbook-of-Personnel-Assessment-and-Selection-Schmitt-Neal-Eds",
+      "start": 2641,
+      "end": 2650,
+      "tokens": 1324,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc",
+      "start": 22427,
+      "end": 22475,
+      "tokens": 719,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-Oxford-handbook-of-recruitment-Yu-Kang-Yang-Trevor-Cable-etc",
+      "start": 35200,
+      "end": 35225,
+      "tokens": 400,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc",
+      "start": 1800,
+      "end": 1812,
+      "tokens": 1267,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc",
+      "start": 1853,
+      "end": 1874,
+      "tokens": 2383,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc",
+      "start": 1021,
+      "end": 1035,
+      "tokens": 986,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 234,
+      "end": 242,
+      "tokens": 96,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 280,
+      "end": 286,
+      "tokens": 330,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 1000,
+      "end": 1012,
+      "tokens": 721,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 1040,
+      "end": 1046,
+      "tokens": 275,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst",
+      "start": 1365,
+      "end": 1375,
+      "tokens": 268,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst",
+      "start": 3189,
+      "end": 3200,
+      "tokens": 373,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Scaling-People-Claire-Hughes-Johnson",
+      "start": 1220,
+      "end": 1246,
+      "tokens": 446,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Scaling-People-Claire-Hughes-Johnson",
+      "start": 2792,
+      "end": 2808,
+      "tokens": 912,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Scaling-People-Claire-Hughes-Johnson",
+      "start": 4079,
+      "end": 4090,
+      "tokens": 914,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst",
+      "start": 1199,
+      "end": 1210,
+      "tokens": 269,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst",
+      "start": 2654,
+      "end": 2668,
+      "tokens": 932,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Scaling-People-Claire-Hughes-Johnson",
+      "start": 1746,
+      "end": 1762,
+      "tokens": 2116,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Scaling-People-Claire-Hughes-Johnson",
+      "start": 1926,
+      "end": 1933,
+      "tokens": 1158,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1970,
+      "end": 1978,
+      "tokens": 577,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 1212,
+      "end": 1216,
+      "tokens": 309,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc",
+      "start": 2713,
+      "end": 2735,
+      "tokens": 1878,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 545,
+      "end": 554,
+      "tokens": 940,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 2167,
+      "end": 2177,
+      "tokens": 251,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 2777,
+      "end": 2786,
+      "tokens": 576,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Perspectives-on-organizational-fit-Ostroff-Cheri-Lee-Judge-etc",
+      "start": 1676,
+      "end": 1682,
+      "tokens": 494,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 1213,
+      "end": 1219,
+      "tokens": 183,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Pedigree-How-Elite-Students-Get-Elite-Jobs-Lauren-A-Rivera",
+      "start": 1695,
+      "end": 1700,
+      "tokens": 560,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Evidence-Based-Recruiting-How-to-Build-a-Company-of-Star-Performers-Through-Syst",
+      "start": 2883,
+      "end": 2893,
+      "tokens": 1166,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "The-2-Hour-Job-Search-Using-Technology-to-Get-the-Right-Job-Faster-Steve-Dalton",
+      "start": 788,
+      "end": 805,
+      "tokens": 1408,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Working-Identity-Unconventional-Strategies-for-Reinventing-Your-Career-Herminia-",
+      "start": 2190,
+      "end": 2200,
+      "tokens": 77,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 81,
+      "end": 108,
+      "tokens": 1807,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 90,
+      "end": 116,
+      "tokens": 228,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 1066,
+      "end": 1086,
+      "tokens": 915,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 1131,
+      "end": 1155,
+      "tokens": 1059,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 1305,
+      "end": 1345,
+      "tokens": 2043,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 75,
+      "end": 109,
+      "tokens": 582,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 361,
+      "end": 391,
+      "tokens": 869,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 516,
+      "end": 551,
+      "tokens": 1298,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 1844,
+      "end": 1858,
+      "tokens": 833,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 2170,
+      "end": 2208,
+      "tokens": 1468,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 2349,
+      "end": 2374,
+      "tokens": 716,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 2439,
+      "end": 2452,
+      "tokens": 258,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 7177,
+      "end": 7195,
+      "tokens": 737,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 1589,
+      "end": 1608,
+      "tokens": 1256,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 2077,
+      "end": 2095,
+      "tokens": 994,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 2771,
+      "end": 2795,
+      "tokens": 1262,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 2860,
+      "end": 2882,
+      "tokens": 2113,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 3195,
+      "end": 3214,
+      "tokens": 330,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 3431,
+      "end": 3442,
+      "tokens": 610,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Analyzing-Intelligence-Origins-Obstacles-and-Innovations-Roger-Z-George-James-B-",
+      "start": 3212,
+      "end": 3229,
+      "tokens": 558,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 2285,
+      "end": 2315,
+      "tokens": 713,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 3265,
+      "end": 3287,
+      "tokens": 587,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 3500,
+      "end": 3526,
+      "tokens": 302,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 4051,
+      "end": 4065,
+      "tokens": 91,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 1018,
+      "end": 1026,
+      "tokens": 265,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 1219,
+      "end": 1240,
+      "tokens": 506,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Communicating-with-Intelligence-Writing-and-Briefing-for-National-Security-M-Pat",
+      "start": 2774,
+      "end": 2794,
+      "tokens": 318,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 2491,
+      "end": 2505,
+      "tokens": 634,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 2661,
+      "end": 2693,
+      "tokens": 1053,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 5038,
+      "end": 5057,
+      "tokens": 689,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    },
+    {
+      "source": "Intelligence-Analysis-A-Target-Centric-Approach-Robert-M-Clark",
+      "start": 5264,
+      "end": 5290,
+      "tokens": 1190,
+      "reason": "Targeted source extraction or boundary verification",
+      "question": "Confirm exact framework, application condition, or limitation for the retained module; rereading includes a few overlaps.",
+      "resolution": "Retained at bounded strength or recorded in exclusions; no full-source completeness claimed.",
+      "token_accounting": "emitted upper bound, not provider token usage"
+    }
+  ]
+}
