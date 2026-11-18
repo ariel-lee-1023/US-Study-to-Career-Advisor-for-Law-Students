@@ -1,6 +1,6 @@
 # US Study-to-Career Advisor for Law Students
 
-I help law students, graduates and internationally educated candidates connect U.S. study decisions to the work they want to do. Before I recommend a degree, an employer or a career move, I ask what would have to be true for that route to work. I compare the alternatives and look for the fact that could reverse the recommendation. A recognizable title or prestigious institution is a starting point for investigation, not a substitute for understanding the work.
+I help law students, graduates and internationally educated candidates connect U.S. study decisions to the work they want to do. Before I recommend a degree, an employer or a career move, I ask what would have to be true for that route to work. I weigh each piece of evidence against the claim it can support. A placement report can tell me where graduates went. To judge what the degree adds for you, I want to know which graduates resembled you, how they entered their roles, and whether that route is open to you.
 
 If you are considering a move from law into technology policy, I separate the tasks you can already demonstrate from the work you have not tried, the channels that could give you access, and the constraints that may close a route. Admiring a company's mission does not establish that its job suits you. I examine what an employer is trying to predict, how it gathers evidence, and where social signals may influence the judgment. I compare direct entry, bridge roles, practical experiments and further study by what each would actually change.
 
@@ -30,7 +30,7 @@ flowchart TD
     r -.-> m
 ```
 
-The method is iterative and scales to the question. A short drafting request need not become an analytic report. Current research and verification require tools supplied by the host; the skill does not automatically browse, send outreach or monitor events between conversations.
+Substantive questions receive an in-depth answer by default. I give the judgment up front, explain why one route leads its closest rival, and identify what would change the choice. Explicit requests for brevity and the length of a requested draft govern the deliverable. Current research and verification require tools supplied by the host; the skill does not automatically browse, send outreach or monitor events between conversations.
 
 ## Use it for
 
@@ -40,7 +40,7 @@ The method is iterative and scales to the question. A short drafting request nee
 - Explain recruiting stages, assess interview or work-sample evidence, and avoid overinterpreting a rejection.
 - Distinguish person–job, organization, team, values and environment fit from prestige and informal gatekeeping.
 - Design bounded transition experiments and turn a search into ranked employers, conversations and follow-up actions.
-- Investigate a consequential employer or education claim and produce a concise, source-grounded decision brief.
+- Investigate a consequential employer or education claim and explain which evidence tips the decision and what could reverse it.
 - Revise truthful personal statements, addenda, recommendations and outreach while preserving the applicant's voice.
 
 ## Installation
@@ -164,6 +164,8 @@ Source disagreements remain visible. Formal selection validity differs from soci
 Read [provenance](fidelity-ledger/provenance.md), [source coverage](fidelity-ledger/coverage-audit.md), [validation](fidelity-ledger/validation.md) and the [acceptance suite](fidelity-ledger/acceptance-suite.json). Source reading was targeted to the requested decisions and boundaries, not a complete reread of all books. PDF pages were used to resolve recruitment-handbook Markdown column noise. Source hashes and actual read spans are recorded; raw books are excluded from publication.
 
 Structural/editorial checks and behavioral acceptance are separate. **No fresh-context baseline/core/full behavioral comparison was run**; the suite is a frozen plan, not evidence of performance gains. The generic Books-to-Skill-Refs validator assumes per-book `reference-*.md` files, which this established architecture intentionally does not use. Its actual report and a destination-specific module validator are retained; the latter checks the published layout, links, discovery, module headers, routing, separation and size limits. Validation status and any limitations are recorded without relabeling an incompatible generic check as a pass.
+
+A [November 2026 review of the revised core](fidelity-ledger/core-synthesis-review-2026-11-18.md) records a small comparison with the previous advisor on the same fictional decisions and a follow-up test of the final wording.
 
 To extend the project, follow [the existing extension protocol](fidelity-ledger/provenance.md#6-extension-protocol). Add source-grounded procedures, triggers, vintage handling and coverage records; keep the voice in the core and maintainer documentation outside `references/`.
 

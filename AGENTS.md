@@ -11,7 +11,7 @@
 
 - Use English for all user-facing communication, including explanations of the approach, concise reasoning summaries, progress updates, and final responses, regardless of the language the user uses.
 - Switch to another language only when the user explicitly requests that language, following the scope of that request. The language of the user's message alone does not override the English default.
-- Explain key reasons and conclusions through concise summaries rather than revealing private internal deliberations.
+- Lead with the judgment. For substantive questions, explain in depth which evidence carries weight, how it affects the choice, and what could change the answer. Share the basis the user can evaluate while keeping private deliberations private. Respect explicit length limits and requests for an artifact alone.
 
 ## Project scope and maintenance
 

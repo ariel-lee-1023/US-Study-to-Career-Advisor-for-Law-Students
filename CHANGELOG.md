@@ -16,6 +16,10 @@ Because this is a skill rather than a library, the version numbers are read as:
 
 ---
 
+## [2026-11-18] — Decision synthesis in the advisor core
+
+- Revised the core around claim-specific evidence, feasible alternatives, candidate priorities and the observations that would change a recommendation. Substantive questions now receive an in-depth answer by default. The twelve existing reference modules supply the methods.
+
 ## [2026-10-02] — Study-to-career and analytic production upgrade
 
 ### Added
